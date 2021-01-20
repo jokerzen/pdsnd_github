@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Submitted for your approval
+Present reports for bicycle rentals in cities that provide data
 """
 
 from calendar import month_name, day_name
