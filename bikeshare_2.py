@@ -264,7 +264,7 @@ def show_raw(df):
             break
 
 
-def main():
+if __name__ == "__main__":
     """ Main loop to run each function """
     while True:
         city, month, day = get_filters()
@@ -288,6 +288,3 @@ def main():
         if restart.lower() != 'yes':
             break
 
-
-if __name__ == "__main__":
-    main()
