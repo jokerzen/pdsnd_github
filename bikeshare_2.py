@@ -12,7 +12,6 @@ import pandas as pd
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
-             #'test': 'test.csv',
               'washington': 'washington.csv' }
 
 # https://www.tutorialsrack.com/articles/207/how-to-get-a-month-name-using-the-month-number-in-python
@@ -265,7 +264,7 @@ def show_raw(df):
             break
 
 
-def main():
+if __name__ == "__main__":
     """ Main loop to run each function """
     while True:
         city, month, day = get_filters()
@@ -289,6 +288,3 @@ def main():
         if restart.lower() != 'yes':
             break
 
-
-if __name__ == "__main__":
-    main()
