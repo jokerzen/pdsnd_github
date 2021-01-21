@@ -12,7 +12,6 @@ import pandas as pd
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
-             #'test': 'test.csv',
               'washington': 'washington.csv' }
 
 # https://www.tutorialsrack.com/articles/207/how-to-get-a-month-name-using-the-month-number-in-python
